@@ -1,0 +1,38 @@
+h1{
+    color: lime;
+    border: solid;
+    margin-left: 20px;
+
+}
+.header{
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    background-color: fuchsia;
+    display:flex;
+    justify-content:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 30px;
+    align-items: center;
+
+}
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content:first baseline;
+}
+.origami{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
